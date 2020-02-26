@@ -1,0 +1,4 @@
+s3_bucket:
+voice_id: Salli
+output_format: mp3
+lexicons:

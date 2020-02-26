@@ -12,10 +12,11 @@ Uses AWS's Polly text-to-speech service to generate audio books from text files 
 
 - `pipenv install --dev`
 - `pipenv shell`
+- `cp config.example.yml config.yml` and change accordingly
 
 ## Usage
 
-- `pipenv run python synthesize.py`
+- `S3_BUCKET=YOUR_BUCKET pipenv run python synthesize.py`
 
 ## Linting
 

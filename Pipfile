@@ -8,6 +8,7 @@ flake8 = "*"
 
 [packages]
 boto3 = "~=1.10.4"
+pyyaml = "~=5.3"
 
 [requires]
 python_version = "3.7"
