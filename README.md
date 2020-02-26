@@ -1,17 +1,22 @@
-# polly-the-parrot
+# Audio Book Generator
 
-Polly AWS playing around
+Uses AWS's Polly text-to-speech service to generate audio books from text files from my books.
 
 ## Requirements
 
 - Python 3.7.4
-- Pipenv
+- [Pipenv](https://pipenv.readthedocs.io/en/latest/install/#installing-pipenv)
+- AWS Account setup and desire to spend money via Polly
 
 ## Setup
 
-- `pipenv install`
+- `pipenv install --dev`
 - `pipenv shell`
 
 ## Usage
 
-- `python speak.py`
+- `pipenv run python synthesize.py`
+
+## Linting
+
+- `pipenv run flake8`
