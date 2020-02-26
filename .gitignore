@@ -103,8 +103,6 @@ venv.bak/
 # mypy
 .mypy_cache/
 
-# App Outputs
-
-*.mp3
+# App
 
 config.yml
