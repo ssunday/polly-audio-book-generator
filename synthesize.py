@@ -14,6 +14,7 @@ polly_client.start_speech_synthesis_task(
   OutputS3BucketName=config["s3_bucket"],
   OutputS3KeyPrefix=s3_key,
   VoiceId=config["voice_id"],
+  Engine=config["voice_engine"],
   OutputFormat=config["output_format"],
   LexiconNames=config["lexicons"],
   Text=input_file.read(),
