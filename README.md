@@ -1,11 +1,11 @@
 # Polly Audio Book Generator
 
-Uses [AWS's Polly text-to-speech service](https://aws.amazon.com/polly/) to generate audio files from text files from my books...in theory to create audio books. Not that exciting right now or that fleshed out. It's a WIP.
+Uses [AWS's Polly text-to-speech service](https://aws.amazon.com/polly/) to generate audio files from text files from my books, in theory to create audio books. It's a basic tool.
 
 ## Requirements
 
-- Python 3.7.4
-- [Pipenv](https://pipenv.readthedocs.io/en/latest/install/#installing-pipenv)
+- Python 3.10.4+
+- [Pipenv](https://pypi.org/project/pipenv/#installation) (`pip install pipenv`)
 - AWS Account setup and desire to spend money via Polly
 
 ## Setup
@@ -21,10 +21,3 @@ Uses [AWS's Polly text-to-speech service](https://aws.amazon.com/polly/) to gene
 ## Linting
 
 - `pipenv run flake8`
-
-## TODO
-
-- [x] Allow passing in engine to use Neural option on voice
-- [ ] Somehow parse RTF into [SSML](https://docs.aws.amazon.com/polly/latest/dg/supportedtags.html) to utilize more of the effects.
-  Problems: bolding/italics have multiple meanings in my books due to their usage in stream of consciousness so the effects may not match intent.
-- [ ] Lexicon creation support and instant playback to verify the words sound right.
